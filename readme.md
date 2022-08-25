@@ -2,7 +2,7 @@
 
 Examples for [C#](https://docs.microsoft.com/en-us/dotnet/csharp/).
 
-![](https://img.shields.io/github/license/rickbeerendonk/csharp-examples.svg)
+![license](https://img.shields.io/github/license/rickbeerendonk/csharp-examples.svg)
 
 ## Run
 
@@ -14,7 +14,7 @@ Examples for [C#](https://docs.microsoft.com/en-us/dotnet/csharp/).
 
 ## Docs
 
-- https://docs.microsoft.com/en-us/dotnet/csharp/
+- <https://docs.microsoft.com/en-us/dotnet/csharp/>
 
 ## Visual Studio Code Plugins
 
@@ -26,4 +26,4 @@ European Union Public Licence version 1.2
 
 ## Copyright
 
-Copyright © 2021 Rick Beerendonk
+Copyright © 2021-2022 Rick Beerendonk
