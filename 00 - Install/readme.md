@@ -1,6 +1,6 @@
 # Install
 
-Download .NET:: https://dotnet.microsoft.com/en-us/download
+Download .NET: https://dotnet.microsoft.com/en-us/download
 
 ## Licence
 
