@@ -14,7 +14,7 @@ Console.WriteLine(demo1.Equals(demo2));      // True
 Console.WriteLine(demo1.GetHashCode());      // 456035898
 Console.WriteLine(demo1.ToString());         // Demo { one = 1, two = two }
 
-// Supported methods (destrcuturing):
+// Supported methods (destructuring):
 var (one, two) = demo1;
 Console.WriteLine(one);       // 1
 Console.WriteLine(two);       // two
