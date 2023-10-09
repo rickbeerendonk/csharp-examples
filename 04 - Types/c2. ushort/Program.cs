@@ -6,7 +6,9 @@ Console.WriteLine(ushort.MaxValue); // 65535
 
 // Explicit vs Implicit
 ushort explicitValue = 65535;
-var implicitValue = 65535; // int
+var implicitValue1 = 65535; // int
+var implicitValue2 = (ushort)65535;
 
-Console.WriteLine(explicitValue.GetType().FullName); // System.UInt16
-Console.WriteLine(implicitValue.GetType().FullName); // System.Int32
+Console.WriteLine(explicitValue.GetType().FullName);  // System.UInt16
+Console.WriteLine(implicitValue1.GetType().FullName); // System.Int32
+Console.WriteLine(implicitValue2.GetType().FullName); // System.UInt32
