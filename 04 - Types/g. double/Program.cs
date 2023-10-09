@@ -5,8 +5,8 @@ Console.WriteLine(double.MinValue); // -1.7976931348623157E+308
 Console.WriteLine(double.MaxValue); // 1.7976931348623157E+308
 
 // Explicit vs Implicit
-double explicitValue = 1.23;
-var implicitValue = 1.23;
+double explicitValue = 1.234_56;  // _ for readability
+var implicitValue = 1.234_56;  // _ for readability
 
 Console.WriteLine(explicitValue.GetType().FullName);  // System.Double
 Console.WriteLine(implicitValue.GetType().FullName); // System.Double
