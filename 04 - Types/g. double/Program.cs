@@ -5,7 +5,7 @@ Console.WriteLine(double.MinValue); // -1.7976931348623157E+308
 Console.WriteLine(double.MaxValue); // 1.7976931348623157E+308
 
 // Explicit vs Implicit
-double explicitValue = 1.23; // F suffix required
+double explicitValue = 1.23;
 var implicitValue = 1.23;
 
 Console.WriteLine(explicitValue.GetType().FullName);  // System.Double
