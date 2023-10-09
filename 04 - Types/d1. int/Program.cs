@@ -1,7 +1,7 @@
 ﻿// European Union Public License version 1.2
 // Copyright © 2023 Rick Beerendonk
 
-Console.WriteLine(int.MinValue); // --2147483648
+Console.WriteLine(int.MinValue); // -2147483648
 Console.WriteLine(int.MaxValue); // 2147483647
 
 // Explicit vs Implicit
