@@ -10,17 +10,16 @@ var demo2 = new Demo2("two");
 Console.WriteLine(demo1.Name); // one
 Console.WriteLine(demo2.Name); // two
 
+// Short notation
+class Demo1(string name) {
+  public string Name { get; } = name;
+}
 
 // Long notation
-class Demo1 {
-  public Demo1(string name) {
+class Demo2 {
+  public Demo2(string name) {
     Name = name;
   }
 
   public string Name { get; }
-}
-
-// Short notation
-class Demo2(string name) {
-  public string Name { get; } = name;
 }
