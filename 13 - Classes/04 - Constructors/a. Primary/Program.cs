@@ -10,12 +10,12 @@ var demo2 = new Demo2("two");
 Console.WriteLine(demo1.Name); // one
 Console.WriteLine(demo2.Name); // two
 
-// Short notation
+// Short notation: Primary constructor
 class Demo1(string name) {
   public string Name { get; } = name;
 }
 
-// Long notation
+// Long notation: Non-Primary constructor
 class Demo2 {
   public Demo2(string name) {
     Name = name;
