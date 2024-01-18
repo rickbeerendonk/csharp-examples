@@ -1,0 +1,8 @@
+- AsEnumerable
+- AsQueryable
+- Cast
+- [DONE in Filtering] OfType
+- ToArray
+- ToDictionary
+- ToList
+- ToLookup

@@ -1,0 +1,8 @@
+- ElementAt
+- ElementAtOrDefault
+- First
+- FirstOrDefault
+- Last
+- LastOrDefault
+- Single
+- SingleOrDefault

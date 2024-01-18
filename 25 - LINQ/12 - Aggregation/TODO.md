@@ -1,0 +1,9 @@
+- Aggregate
+- Average
+- Count
+- LongCount
+- Max
+- MaxBy
+- Min
+- MinBy
+- Sum
