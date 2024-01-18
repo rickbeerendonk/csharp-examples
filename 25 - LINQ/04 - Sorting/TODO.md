@@ -1,0 +1,5 @@
+- OrderBy
+- OrderByDescending
+- ThenBy
+- ThenByDescending
+- [DONE] Reverse
