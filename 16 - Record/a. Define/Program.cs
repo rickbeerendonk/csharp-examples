@@ -37,5 +37,14 @@ public record Demo
 
   public void Deconstruct(out int one, out string two)
       => (one, two) = (One, Two);
+
+  //public override bool Equals(object obj)
+  //  => obj is Demo other && One == other.One && Two == other.Two;
+
+  public override int GetHashCode()
+    => HashCode.Combine(One, Two);
+
+  public override string ToString()
+    => $"Demo {{ one = {One}, two = {Two} }}";
 }
 */
