@@ -1,0 +1,8 @@
+- Distinct
+- DistinctBy
+- Except
+- ExceptBy
+- Intersect
+- IntersectBy
+- Union
+- UnionBy
