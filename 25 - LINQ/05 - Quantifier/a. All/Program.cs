@@ -5,6 +5,6 @@ List<int> numbers = [1, 3, 5, 7, 9];
 
 Console.WriteLine(numbers.All(n => n % 2 == 1));  // True
 
-numbers[4] = 6;
+numbers[3] = 6;
 
 Console.WriteLine(numbers.All(n => n % 2 == 1));  // False
