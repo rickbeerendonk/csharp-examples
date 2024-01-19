@@ -1,9 +1,9 @@
 ﻿// European Union Public License version 1.2
 // Copyright © 2024 Rick Beerendonk
 
-var evenNumbers = Enumerable.Range(1, 5);
+var numbers = Enumerable.Range(1, 5);
 
-foreach (var number in evenNumbers)
+foreach (var number in numbers)
 {
     Console.WriteLine(number);
 }
