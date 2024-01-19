@@ -12,7 +12,7 @@ Console.WriteLine(demo1.Two);                // two
 // Supported methods (open):
 Console.WriteLine(demo1.Equals(demo2));      // True
 Console.WriteLine(demo1.GetHashCode());      // 456035898
-Console.WriteLine(demo1.ToString());         // Demo { one = 1, two = two }
+Console.WriteLine(demo1.ToString());         // Demo { One = 1, Two = two }
 
 // Supported methods (destructuring):
 var (one, two) = demo1;
@@ -20,7 +20,7 @@ Console.WriteLine(one);       // 1
 Console.WriteLine(two);       // two
 
 // Supported with expression (nondestructive mutation):
-Console.WriteLine(demo1 with { Two = "new" });  // Demo { one = 1, two = new }
+Console.WriteLine(demo1 with { Two = "new" });  // Demo { One = 1, Two = new }
 
 // Define
 public record Demo(int One, string Two);
