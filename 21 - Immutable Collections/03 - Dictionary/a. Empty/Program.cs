@@ -3,6 +3,6 @@
 
 using System.Collections.Immutable;
 
-var lst = ImmutableDictionary<string, int>.Empty;
+var dic = ImmutableDictionary<string, int>.Empty;
 
-Console.WriteLine(lst.Count); // 0
+Console.WriteLine(dic.Count); // 0
