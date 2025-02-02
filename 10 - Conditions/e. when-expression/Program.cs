@@ -10,15 +10,15 @@ var month = moment.Month;
 // === Enum ===
 
 // else branch is mandatory when not all cases are covered
-var result1 = dayOfWeek switch
+var result = dayOfWeek switch
 {
     DayOfWeek.Saturday or DayOfWeek.Sunday => "Weekend 😏",
     _ => "No weekend 😀"
 };
-Console.WriteLine(result1);
+Console.WriteLine(result);
 
 // else branch is still mandatory when "all cases" are covered
-var result2 = dayOfWeek switch
+result = dayOfWeek switch
 {
     DayOfWeek.Monday or
     DayOfWeek.Tuesday or
@@ -29,52 +29,52 @@ var result2 = dayOfWeek switch
     DayOfWeek.Sunday => "Weekend 😏",
     _ => throw new Exception("All cases should be covered, like (DayOfWeek)7")
 };
-Console.WriteLine(result2);
+Console.WriteLine(result);
 
 // === Int ===
 
 // else branch is mandatory when not all cases are covered
-var result3 = day switch
+result = day switch
 {
     >= 1 and <= 5 => "No weekend 😀",
     _ => "Weekend 😏"
 };
-Console.WriteLine(result3);
+Console.WriteLine(result);
 
 // else branch is mandatory when not all cases are covered
-result3 = day switch
+result = day switch
 {
     < 1 or > 5 => "Weekend 😏",
     _ => "No weekend 😀"
 };
-Console.WriteLine(result3);
+Console.WriteLine(result);
 
 // === Type & is ===
 object x = "string";
-var result4 = x switch
+result = x switch
 {
     int => "Number",
     string => "Text",
     _ => "No Number or Text",
 };
-Console.WriteLine(result4);
+Console.WriteLine(result);
 
 // === Multiple cases & in ===
-var result5 = month switch
+result = month switch
 {
     1 or 2 or 3 => "Winter",
     >= 4 and <= 6 => "Spring",
     < 10 or > 12 => "Summer",
     _ => "Autumn"
 };
-Console.WriteLine(result5);
+Console.WriteLine(result);
 
 // === when instead of if-then-else ===
-result5 = hour switch
+result = hour switch
 {
     < 6 => "Good night",
     < 12 => "Good morning",
     < 18 => "Good afternoon",
     _ => "Good evening"
 };
-Console.WriteLine(result5);
+Console.WriteLine(result);
