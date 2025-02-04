@@ -20,5 +20,3 @@ Console.WriteLine(Convert.ToBoolean("True"));   // True
 Console.WriteLine(Convert.ToBoolean("true"));   // True
 
 Console.WriteLine(Convert.ToBoolean("other"));  // System.FormatException: String 'other' was not recognized as a valid Boolean.
-
-
