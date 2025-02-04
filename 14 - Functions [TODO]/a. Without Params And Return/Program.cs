@@ -7,3 +7,5 @@ void Test()
 {
   Console.WriteLine("Empty function");
 }
+
+// Empty function

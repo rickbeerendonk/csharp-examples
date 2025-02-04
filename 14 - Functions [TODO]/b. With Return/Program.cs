@@ -13,3 +13,6 @@ int TestInt()
 {
   return 123;
 }
+
+// Result
+// 123

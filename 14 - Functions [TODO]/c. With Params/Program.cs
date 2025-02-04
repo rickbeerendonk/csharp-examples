@@ -8,3 +8,6 @@ void Test(string text, int number)
   Console.WriteLine(text);
   Console.WriteLine(number);
 }
+
+// Hello C#
+// 12
