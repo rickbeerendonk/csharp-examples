@@ -1,23 +1,23 @@
 ﻿// European Union Public License version 1.2
 // Copyright © 2025 Rick Beerendonk
 
-var demo = new Demo();
+var demo1 = new Demo<int>(1, 2);
+var demo2 = new Demo<double>(3.0, 4.0);
 
-// Use extension method
-Console.WriteLine(demo.Sum());  // 3
+Console.WriteLine($"one={demo1.One}, two={demo1.Two}");
+Console.WriteLine(demo1.GetType().Name);
+Console.WriteLine(demo1.One.GetType().Name);
 
-class Demo
+Console.WriteLine($"one={demo2.One}, two={demo2.Two}");
+
+class Demo<T>
 {
-    public int First { get; } = 1;
-    public int Second { get; } = 2;
-}
+    public T One { get; }
+    public T Two { get; }
 
-
-// Extension method
-static class DemoExtensions
-{
-    public static int Sum(this Demo demo)
+    public Demo(T one, T two)
     {
-        return demo.First + demo.Second;
+        One = one;
+        Two = two;
     }
 }
