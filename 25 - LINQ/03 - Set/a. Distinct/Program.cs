@@ -1,5 +1,5 @@
 ﻿// European Union Public License version 1.2
-// Copyright © 2024 Rick Beerendonk
+// Copyright © 2025 Rick Beerendonk
 
 IEnumerable<int> numbers = [1, 3, 1, 4, 2, 3, 2, 4];
 
