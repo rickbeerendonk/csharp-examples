@@ -6,7 +6,7 @@
 Console.WriteLine(Convert.ToBoolean(0));  // False
 Console.WriteLine(Convert.ToBoolean(1));  // True
 
-// Floating point
+// Double
 
 Console.WriteLine(Convert.ToBoolean(0.0));  // False
 Console.WriteLine(Convert.ToBoolean(0.1));  // True
@@ -19,4 +19,12 @@ Console.WriteLine(Convert.ToBoolean("false"));  // False
 Console.WriteLine(Convert.ToBoolean("True"));   // True
 Console.WriteLine(Convert.ToBoolean("true"));   // True
 
-Console.WriteLine(Convert.ToBoolean("other"));  // System.FormatException: String 'other' was not recognized as a valid Boolean.
+try
+{
+  Console.WriteLine(Convert.ToBoolean("other"));
+}
+catch (FormatException e)
+{
+  Console.WriteLine(e.Message);  // String 'other' was not recognized as a valid Boolean.
+}
+
