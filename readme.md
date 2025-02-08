@@ -26,4 +26,4 @@ European Union Public Licence version 1.2
 
 ## Copyright
 
-Copyright © 2021-2024 Rick Beerendonk
+Copyright © 2021-2025 Rick Beerendonk
