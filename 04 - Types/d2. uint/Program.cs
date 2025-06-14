@@ -10,3 +10,6 @@ var implicitValue = 4294967295;  // uint
 
 Console.WriteLine(explicitValue.GetType().FullName); // System.UInt32
 Console.WriteLine(implicitValue.GetType().FullName); // System.UInt32
+
+// Size
+Console.WriteLine(sizeof(uint)); // 4

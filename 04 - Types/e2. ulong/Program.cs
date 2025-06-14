@@ -10,3 +10,6 @@ var implicitValue = 18446744073709551615;  // ulong
 
 Console.WriteLine(explicitValue.GetType().FullName); // System.UInt64
 Console.WriteLine(implicitValue.GetType().FullName); // System.UInt64
+
+// Size
+Console.WriteLine(sizeof(ulong)); // 8

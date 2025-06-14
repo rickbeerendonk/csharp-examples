@@ -12,3 +12,6 @@ var implicitValue2 = 1.23M;    // M suffix
 Console.WriteLine(explicitValue.GetType().FullName);  // System.Decimal
 Console.WriteLine(implicitValue1.GetType().FullName); // System.Double
 Console.WriteLine(implicitValue2.GetType().FullName); // System.Decimal
+
+// Size
+Console.WriteLine(sizeof(decimal)); // 16

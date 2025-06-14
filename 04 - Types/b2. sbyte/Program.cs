@@ -12,3 +12,6 @@ var implicitValue2 = (sbyte)127;
 Console.WriteLine(explicitValue.GetType().FullName);  // System.SByte
 Console.WriteLine(implicitValue1.GetType().FullName); // System.Int32
 Console.WriteLine(implicitValue2.GetType().FullName); // System.SByte
+
+// Size
+Console.WriteLine(sizeof(sbyte)); // 1

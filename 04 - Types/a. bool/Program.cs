@@ -5,3 +5,6 @@ Console.WriteLine(true);
 Console.WriteLine(false);
 
 Console.WriteLine(typeof(bool).FullName); // System.Boolean
+
+// Size
+Console.WriteLine(sizeof(bool)); // 1

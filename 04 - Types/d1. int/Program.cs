@@ -10,3 +10,6 @@ var implicitValue = 2_147_483_647;  // _ for readability
 
 Console.WriteLine(explicitValue.GetType().FullName); // System.Int32
 Console.WriteLine(implicitValue.GetType().FullName); // System.Int32
+
+// Size
+Console.WriteLine(sizeof(int)); // 4

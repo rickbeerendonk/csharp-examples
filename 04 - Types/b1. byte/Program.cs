@@ -12,3 +12,6 @@ var implicitValue2 = (byte)255;
 Console.WriteLine(explicitValue.GetType().FullName);  // System.Byte
 Console.WriteLine(implicitValue1.GetType().FullName); // System.Int32
 Console.WriteLine(implicitValue2.GetType().FullName); // System.Byte
+
+// Size
+Console.WriteLine(sizeof(byte)); // 1

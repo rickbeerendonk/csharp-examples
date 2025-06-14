@@ -10,3 +10,6 @@ var implicitValue = 1.234_56;  // _ for readability
 
 Console.WriteLine(explicitValue.GetType().FullName);  // System.Double
 Console.WriteLine(implicitValue.GetType().FullName); // System.Double
+
+// Size
+Console.WriteLine(sizeof(double)); // 8

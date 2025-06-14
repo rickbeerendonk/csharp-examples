@@ -12,3 +12,6 @@ var implicitValue2 = (ushort)65535;
 Console.WriteLine(explicitValue.GetType().FullName);  // System.UInt16
 Console.WriteLine(implicitValue1.GetType().FullName); // System.Int32
 Console.WriteLine(implicitValue2.GetType().FullName); // System.UInt32
+
+// Size
+Console.WriteLine(sizeof(ushort)); // 2

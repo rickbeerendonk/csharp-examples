@@ -10,3 +10,6 @@ var implicitValue = 9_223_372_036_854_775_807; // _ for readability
 
 Console.WriteLine(explicitValue.GetType().FullName); // System.Int64
 Console.WriteLine(implicitValue.GetType().FullName); // System.Int64
+
+// Size
+Console.WriteLine(sizeof(long)); // 8

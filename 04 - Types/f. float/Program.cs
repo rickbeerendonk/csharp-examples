@@ -12,3 +12,6 @@ var implicitValue2 = 1.23F;  // F suffix
 Console.WriteLine(explicitValue.GetType().FullName);  // System.Single
 Console.WriteLine(implicitValue1.GetType().FullName); // System.Double
 Console.WriteLine(implicitValue2.GetType().FullName); // System.Single
+
+// Size
+Console.WriteLine(sizeof(float)); // 4

@@ -14,4 +14,7 @@ Console.WriteLine('\'');                                   // '
 Console.WriteLine('\"');                                   // "
 Console.WriteLine('\\');                                   // \
 Console.WriteLine('$');                                    // $
-Console.WriteLine('\uFF00');
+Console.WriteLine('\uFF00');                               // Unicode character U+FF00 (Fullwidth Character '0')
+
+// Size
+Console.WriteLine(sizeof(char)); // 2
