@@ -1,7 +1,7 @@
 ﻿// European Union Public License version 1.2
 // Copyright © 2024 Rick Beerendonk
 
-for (var i = 1; i < 20; i++)
+for (int i = 1; i < 20; i++)
 {
   if (i % 3 == 0) continue;
   if (i % 10 == 0) break;
