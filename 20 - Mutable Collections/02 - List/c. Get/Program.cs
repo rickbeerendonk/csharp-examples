@@ -4,6 +4,8 @@
 // Collection expression
 List<string> lst = ["A", "B", "C"];
 
+Console.WriteLine(lst[1]); // B
+
 foreach (string item in lst)
 {
   Console.WriteLine(item);
