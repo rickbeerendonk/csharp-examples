@@ -9,8 +9,8 @@ Console.WriteLine(demo1.GetType().Name);
 Console.WriteLine(demo1.One.GetType().Name);
 
 Console.WriteLine($"one={demo2.One}, two={demo2.Two}");
-Console.WriteLine(demo1.GetType().Name);
-Console.WriteLine(demo1.One.GetType().Name);
+Console.WriteLine(demo2.GetType().Name);
+Console.WriteLine(demo2.One.GetType().Name);
 
 class Demo<T>
 {
