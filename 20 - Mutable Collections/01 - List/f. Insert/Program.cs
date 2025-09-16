@@ -4,7 +4,7 @@
 // Collection expression
 List<string> lst = ["A", "B", "C"];
 
-lst.Add("D"); // Adds "D" at the end
+lst.Insert(1, "D"); // Inserts "D" at index 1
 
 foreach (string item in lst)
 {
@@ -12,6 +12,6 @@ foreach (string item in lst)
 }
 
 // A
+// D
 // B
 // C
-// D
