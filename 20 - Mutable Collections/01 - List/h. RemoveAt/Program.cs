@@ -2,9 +2,9 @@
 // Copyright © 2025 Rick Beerendonk
 
 // Collection expression
-List<string> lst = ["A", "C", "B", "C", "D"];
+List<string> lst = ["A", "B", "C", "D"];
 
-lst.Remove("C"); // Removes first "C"
+lst.RemoveAt(1); // Removes the second item
 
 foreach (string item in lst)
 {
@@ -12,6 +12,5 @@ foreach (string item in lst)
 }
 
 // A
-// B
 // C
 // D
