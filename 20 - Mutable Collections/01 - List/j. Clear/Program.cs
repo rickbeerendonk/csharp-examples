@@ -1,0 +1,14 @@
+﻿// European Union Public License version 1.2
+// Copyright © 2025 Rick Beerendonk
+
+// Collection expression
+List<string> lst = ["A", "B", "C"];
+
+lst.Clear(); // Removes all items
+
+foreach (string item in lst)
+{
+  Console.WriteLine(item);
+}
+
+// (no output)
