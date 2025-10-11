@@ -1,25 +1,23 @@
 ﻿// European Union Public License version 1.2
 // Copyright © 2025 Rick Beerendonk
 
-var demo1 = new Demo<int>(1, 2);
-var demo2 = new Demo<double>(3.0, 4.0);
+var stringCache = new Cache<string>();
+stringCache.SetByKey("greeting", "Hello");
+Console.WriteLine(stringCache.GetByKey("greeting"));
 
-Console.WriteLine($"one={demo1.One}, two={demo1.Two}");
-Console.WriteLine(demo1.GetType().Name);
-Console.WriteLine(demo1.One.GetType().Name);
+var intCache = new Cache<int>();
+intCache.SetByKey("year", 2025);
+Console.WriteLine(intCache.GetByKey("year"));
 
-Console.WriteLine($"one={demo2.One}, two={demo2.Two}");
-Console.WriteLine(demo2.GetType().Name);
-Console.WriteLine(demo2.One.GetType().Name);
+// Hello
+// 2025
 
-class Demo<T>
+public class Cache<T>
 {
-    public T One { get; }
-    public T Two { get; }
-
-    public Demo(T one, T two)
-    {
-        One = one;
-        Two = two;
-    }
+    private readonly Dictionary<string, T> _store = new Dictionary<string, T>();
+    
+    public T? GetByKey(string key) => _store.TryGetValue(key, out T? value) ? value : default(T);
+    
+    public void SetByKey(string key, T value) => _store[key] = value;
 }
+
