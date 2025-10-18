@@ -1,0 +1,14 @@
+// European Union Public License version 1.2
+// Copyright © 2025 Rick Beerendonk
+
+Dictionary<string, int> dict = new()
+{
+  ["One"] = 1,
+  ["Two"] = 2
+};
+
+bool hasTwo = dict.ContainsKey("Two");
+bool hasThree = dict.ContainsKey("Three");
+
+Console.WriteLine($"Has 'Two': {hasTwo}"); // True
+Console.WriteLine($"Has 'Three': {hasThree}"); // False
