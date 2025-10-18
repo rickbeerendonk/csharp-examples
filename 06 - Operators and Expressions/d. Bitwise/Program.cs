@@ -7,6 +7,6 @@ int b = 10; // 1010 in binary
 Console.WriteLine($"AND: {a} & {b} = {a & b}"); // 1000 = 8
 Console.WriteLine($"OR: {a} | {b} = {a | b}"); // 1110 = 14
 Console.WriteLine($"XOR: {a} ^ {b} = {a ^ b}"); // 0110 = 6
-Console.WriteLine($"NOT: ~{a} = {~a}"); // Inverts all bits
+Console.WriteLine($"NOT: ~{a} = {~a}"); // Inverts all bits = -13
 Console.WriteLine($"Left Shift: {a} << 1 = {a << 1}"); // 11000 = 24
 Console.WriteLine($"Right Shift: {a} >> 1 = {a >> 1}"); // 110 = 6

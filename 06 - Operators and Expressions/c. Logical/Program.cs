@@ -4,7 +4,7 @@
 bool a = true;
 bool b = false;
 
-Console.WriteLine($"AND: {a} && {b} = {a && b}");
-Console.WriteLine($"OR: {a} || {b} = {a || b}");
-Console.WriteLine($"NOT: !{a} = {!a}");
-Console.WriteLine($"NOT: !{b} = {!b}");
+Console.WriteLine($"AND: {a} && {b} = {a && b}"); // False
+Console.WriteLine($"OR: {a} || {b} = {a || b}"); // True
+Console.WriteLine($"NOT: !{a} = {!a}"); // False
+Console.WriteLine($"NOT: !{b} = {!b}"); // True
