@@ -3,7 +3,11 @@
 
 IEnumerable<int> numbers = [1, 2, 3, 4, 5];
 
-var evenNumbers = numbers.Where(n => n % 2 == 0);
+IQueryable<int> numbersQ = numbers.AsQueryable();
+
+IEnumerable<int> numbersE = numbersQ.AsEnumerable();
+
+var evenNumbers = numbersE.Where(n => n % 2 == 0);
 
 foreach (var number in evenNumbers)
 {
