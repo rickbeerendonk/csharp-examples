@@ -19,3 +19,6 @@ Console.WriteLine(string.Join(", ", values[..^2]));   // 1, 2, 3, 4, 5
 Console.WriteLine(string.Join(", ", values[^2..]));   //             6, 7
 Console.WriteLine(string.Join(", ", values[2..^2]));  //       3, 4, 5
 Console.WriteLine(string.Join(", ", values[^5..5]));  //       3, 4, 5
+
+// Type
+Console.WriteLine(values[0..2].ToString());           // System.Int32[]
