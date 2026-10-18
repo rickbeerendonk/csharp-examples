@@ -4,6 +4,7 @@
 int Max = int.MaxValue;
 Console.WriteLine($"Max value: {Max}");
 
+// Default behavior: Overflow checking depends on compiler settings
 
 // unchecked statement disables overflow checking
 unchecked
