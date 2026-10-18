@@ -3,6 +3,7 @@
 ##################
 
 *.suo
+*.tmp
 *.user
 *.userosscache
 *.sln.docstates
