@@ -18,6 +18,7 @@ Console.WriteLine($"Char: {char.Parse("A")}");
 Console.WriteLine($"BigInteger: {System.Numerics.BigInteger.Parse("18", CultureInfo.InvariantCulture)}");
 Console.WriteLine($"nint: {nint.Parse("18", CultureInfo.InvariantCulture)}");
 Console.WriteLine($"nuint: {nuint.Parse("18", CultureInfo.InvariantCulture)}");
+Console.WriteLine($"DateTime: {DateTime.Parse("2026-06-15 13:14:15", CultureInfo.InvariantCulture, DateTimeStyles.None)}");
 
 try
 {
