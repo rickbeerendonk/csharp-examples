@@ -10,3 +10,8 @@ Console.WriteLine($"XOR: {a} ^ {b} = {a ^ b}"); // 0110 = 6
 Console.WriteLine($"NOT: ~{a} = {~a}"); // Inverts all bits = -13
 Console.WriteLine($"Left Shift: {a} << 1 = {a << 1}"); // 11000 = 24
 Console.WriteLine($"Right Shift: {a} >> 1 = {a >> 1}"); // 110 = 6
+
+// Signed right shift preserves the sign; unsigned right shift inserts zeros.
+int negative = -8;
+Console.WriteLine(negative >> 1);  // -4
+Console.WriteLine(negative >>> 1); // 2147483644
