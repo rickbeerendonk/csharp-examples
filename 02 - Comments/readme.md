@@ -24,6 +24,17 @@ Multi
 */
 ```
 
+## XML Documentation
+
+Use `///` comments on types and members for XML documentation and IntelliSense.
+See the documented class and method in [Program.cs](./Program.cs).
+
+To generate and validate the XML documentation:
+
+```zsh
+dotnet build -p:GenerateDocumentationFile=true
+```
+
 ## Licence
 
 European Union Public Licence version 1.2
