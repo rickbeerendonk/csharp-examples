@@ -13,3 +13,8 @@ Console.WriteLine(implicitValue.GetType().FullName); // System.Int32
 
 // Size
 Console.WriteLine(sizeof(int)); // 4
+
+// The same value in different numeric bases.
+Console.WriteLine(255);         // 255
+Console.WriteLine(0xFF);        // 255
+Console.WriteLine(0b1111_1111); // 255
